@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2016",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "importHelpers": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "lib": [
+      "es2015"
+    ]
+  },
+  "include": [
+    "src/**/*",
+  ]
+}
